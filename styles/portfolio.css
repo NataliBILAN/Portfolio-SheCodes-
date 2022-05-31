@@ -1,7 +1,24 @@
+:root {
+  --bg-color: #202020;
+  --text-color: #ffffff;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 
 .top-section {
-  background-image: url(./images/bg.png);
+  background-image: url("../images/bg.png");
+  background-color: var(--bg-color);
+  min-height: 782px;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  min-height: 120px;
+}
+
+.nav-link {
+  color: var(--text-color) !important;
 }
