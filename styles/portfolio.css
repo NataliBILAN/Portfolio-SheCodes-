@@ -1,6 +1,7 @@
 :root {
   --bg-color: #202020;
   --text-color: #ffffff;
+  --secondary-text-color: #272142;
 }
 
 body {
@@ -11,7 +12,13 @@ body {
 .top-section {
   background-image: url("../images/bg.png");
   background-color: var(--bg-color);
-  min-height: 782px;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  padding-top: 270px;
+}
+
+.top-content {
+  text-align: center;
 }
 
 .navbar {
@@ -21,4 +28,76 @@ body {
 
 .nav-link {
   color: var(--text-color) !important;
+}
+
+.description {
+  max-width: 415px;
+  margin: 0 auto 50px;
+}
+
+.title,
+.sub-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.sub-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 18px 0;
+  width: 200px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  background: var(--text-color);
+  border-radius: 50px;
+}
+
+.gallery {
+  padding: 100px 0;
+  background-color: var(--bg-color);
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-item {
+  margin: 15px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-toggler {
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .top-section {
+    background-size: contain;
+  }
 }
