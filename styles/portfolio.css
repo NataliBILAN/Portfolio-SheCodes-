@@ -140,7 +140,6 @@ body {
 }
 
 .top-content-about {
-  /* flex-direction: column; */
   background-color: var(--bg-color);
   padding-top: 270px;
 }
@@ -214,6 +213,10 @@ body {
   .top-section {
     background-size: contain;
     background-position-y: 100px;
+  }
+
+  .top-content-about {
+    padding-top: 140px;
   }
 
   .gallery {
