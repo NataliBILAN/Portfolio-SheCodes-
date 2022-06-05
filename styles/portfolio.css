@@ -209,6 +209,15 @@ body {
   margin-bottom: 40px;
 }
 
+.made-by-link {
+  text-decoration: none;
+  color: var(--secondary-accent-color);
+}
+
+.made-by-link:hover {
+  color: var(--accent-color);
+}
+
 @media (max-width: 1024px) {
   .top-section {
     background-size: contain;
