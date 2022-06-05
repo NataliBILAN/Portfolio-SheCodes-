@@ -39,14 +39,6 @@ body {
   margin: 0 auto 50px;
 }
 
-.about-page .description {
-  margin: 0 0 50px;
-}
-
-.about-page .social-links {
-  margin-bottom: 65px;
-}
-
 .title,
 .sub-title {
   margin-bottom: 25px;
@@ -160,6 +152,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
+}
+
+.about-page .description {
+  margin: 0 0 50px;
+}
+
+.about-page .social-links {
+  margin-bottom: 65px;
 }
 
 .contact-page .marker {
